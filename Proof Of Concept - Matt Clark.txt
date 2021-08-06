@@ -1,0 +1,131 @@
+
+
+!!!!!!! PLEASE NOTE: HTML CODE IS BELOW, FOLLOWED BY CSS AFTER THE LINE OF HYPHENS. !!!!!!!
+
+
+<html>
+  <head>
+    <title> Online Calculator </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+      <!-- Top Heading and Welcome Paragraph: this gives the user the knowledge they need about what the system does, and how to start -->
+      <h1 id="TopHeading">
+        Online Calculator
+      </h1>
+      <div id="WelcomeParagraph">
+        <p>
+          Hello and welcome to the Online Calculator. 
+          This functions like any other calculator but is online for you to use whenever you need. 
+          To begin, please choose the equation type you wish to use.
+        </p>
+    </div>
+    <!-- Below are the buttons that map to each separate page. For example, the addition button will map to the addition page. The user will use these to map to the page that will accept the equation they wish to solve -->
+  
+    <input type = "button" id="AddButton" value = "Addition">
+    <br>
+    <input type = "button" id="SubButton" value = "Subtraction">
+    <br>
+    <input type = "button" id="MultButton" value = "Multiplication" >
+    <br>
+    <input type = "button" id="DivButton" value = "Division">
+    <br>
+    <input type = "button" id="ExpButton" value = "Exponential">
+    <br>
+
+
+
+
+
+  </body>
+
+</html>
+-----------------------------------------------------------------
+!!!!!!! PLEASE NOTE: CSS CODE IS BELOW !!!!!!!
+
+
+/* This code serves to make the background of the window blue, instead of the typical white. */
+body
+{
+  background-color: aqua;
+}
+
+/* The Top Heading is the "Online Calculator" heading at the top of the index page */
+#TopHeading
+{
+  border: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 11vw;
+}
+
+/* The Welcome Paragraph, also at the top of the page, introduces the calculator, it's purpose, and how to begin using it. */
+#WelcomeParagraph
+{
+  border: solid;
+  border-color: black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 4vw;
+  border: dotted;
+}
+
+/* Below is the CSS for each of the buttons that map to the other pages: AddButton is Addition, SubButton is Subtraction, MultButton is Multiplication, DivButton is Division and ExpButton is Exponetials (or Powers). */
+#AddButton
+{
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  font-size: 8vw;
+  background-color: red;
+  color: white;
+  border: solid;
+  border-color: black;
+}
+#SubButton
+{
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  font-size: 8vw;
+  background-color: turquoise;
+  color: white;
+  border: solid;
+  border-color: black;  
+
+}
+#MultButton
+{
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  font-size: 8vw;
+  background-color: violet;
+  color: white;
+  border: solid;
+  border-color: black;
+}
+#DivButton
+{
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  font-size: 8vw;
+  background-color: orange;
+  color: white;
+  border: solid;
+  border-color: black;
+}
+#ExpButton
+{
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  font-size: 8vw;
+  background-color: lime;
+  color: white;
+  
+  border: solid;
+  border-color: black;
+}
